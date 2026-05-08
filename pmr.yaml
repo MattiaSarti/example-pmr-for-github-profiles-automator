@@ -1,16 +1,8 @@
 profiles:
-- name: profile-without-contributors
+- name: admin
   owner:
     kind: User
-    name: identity-a@example.com
-- name: profile-with-contributors
-  owner:
-    kind: User
-    name: identity-b@example.com
+    name: admin@email.com
   contributors:
-  - name: identity-a@example.com
+  - name: "mmm"
     role: edit
-  - name: whatever-user-who-can-also-edit@example.com
-    role: edit
-  - name: whatever-user-who-can-only-view@example.com
-    role: view
